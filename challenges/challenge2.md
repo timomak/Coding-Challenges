@@ -2,6 +2,8 @@
 Problem on Leetcode ([link](https://leetcode.com/problems/reverse-integer/))
 
 ## Task:
+> Given a 32-bit signed integer, reverse digits of an integer.
+
 Example 1:
 ```
 Input: 123
@@ -44,4 +46,4 @@ Quickly accomplished the task but it didn't work for the minus sign being displa
 
 I decided to remove the string if the integer was negative and add it back after the string was reversed and then return it as an integer.
 
-The last requirement was solved by adding a conditional to make sure it returns **0** if the int is larger than 32-bit. 
+The last requirement was solved by adding a conditional to make sure it returns **0** if the int is larger than 32-bit.
