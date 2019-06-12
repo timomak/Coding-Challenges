@@ -1,17 +1,12 @@
-def twoSum(nums: [int], target: int) -> [int]:
-    """
-    Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+class Solution:
+    def reverse(self, x: int) -> int:
+        if 0 > x:
+            x = int("-" + str(x)[:0:-1])
+        else:
+            x = int(str(x)[::-1])
+        if x > 2**31 or x < -2**31:
+            return 0
+        return x
 
-    Runtime: O(n) Two consecutive for loops. dict.get() is Constant time.
-
-    """
-    dict = {value: index for index, value in enumerate(nums)}
-
-    for i, v in enumerate(nums):
-        new_target = target - v
-        if dict.get(new_target) != None:
-            if i != dict[new_target]:
-                return [i, dict[new_target]]
-    return None
-
-print(twoSum(nums = [3,2,4], target = 6)) # [0,1]
+solution = Solution()
+print(solution.reverse(1563847412))
