@@ -1,4 +1,4 @@
 <!-- _navbar.md -->
 *  **[Main](readme.md)**
-*  **[Two-Sum](challenges/challenge1.md)**
-*  **[Reverse Integer](challenges/challenge2.md)**
+*  **[Two-Sum](challenge1.md)**
+*  **[Reverse Integer](challenge2.md)**
