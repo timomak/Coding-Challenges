@@ -14,5 +14,9 @@ It includes:
 * My retrospection
 
 # Challenges
-*  **[Two-Sum](challenge1.md)**
-*  **[Reverse Integer](challenge2.md)**
+* **LeetCode**
+  *  **[Two-Sum](challenge1.md)**
+  *  **[Reverse Integer](challenge2.md)**
+* **Exercism**
+  *  **[Two-fer](challenge3.md)**
+  *  **[Twelve Christmas](challenge4.md)**
