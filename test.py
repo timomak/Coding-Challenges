@@ -1,12 +1,18 @@
-class Solution:
-    def reverse(self, x: int) -> int:
-        if 0 > x:
-            x = int("-" + str(x)[:0:-1])
-        else:
-            x = int(str(x)[::-1])
-        if x > 2**31 or x < -2**31:
-            return 0
-        return x
+def fib(n):
+    # fibonacci = [0, 1]
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    a = 0
+    b = 1
+    for i in range(0, n - 1):
+        c = a + b
+        a = b
+        b = c
+        # fibonacci.append(c)
+        if i == (n - 2):
+            return c
+    # print(fibonacci)
 
-solution = Solution()
-print(solution.reverse(1563847412))
+print(fib(10))
