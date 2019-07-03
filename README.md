@@ -20,7 +20,7 @@ It includes:
 * **Exercism**
   *  **[Two-fer](challenge3.md)**
   *  **[Twelve Christmas](challenge4.md)**
-  *  **[Twelve Christmas](challenge5.md)**
+  *  **[Bob](challenge5.md)**
   *  **[Leap Year](challenge6.md)**
 * **Firecode**
   *  **[Reverse 2D Array](challenge7.md)**
