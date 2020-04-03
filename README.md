@@ -26,3 +26,6 @@ It includes:
   *  **[Reverse 2D Array](challenge7.md)**
   *  **[Is Palindrome](challenge8.md)**
   *  **[Fibonacci](challenge9.md)**
+* **Class**
+  * **[Reverse Integer](challenge10.md)**
+  
