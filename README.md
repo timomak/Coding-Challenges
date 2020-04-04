@@ -28,4 +28,5 @@ It includes:
   *  **[Fibonacci](challenge9.md)**
 * **Class**
   * **[Reverse Integer](challenge10.md)**
-  
+  * **[Is Palindrome](challenge11.md)**
+  * **[Check Permutation](challenge12.md)**

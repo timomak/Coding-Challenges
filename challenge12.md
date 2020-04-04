@@ -1,3 +1,6 @@
+# Check Permutation
+
+```Python
 # Check permutation
 # is the string an alteration or reorder of the other?
 
@@ -17,8 +20,10 @@ run through the second string, and do the same but subtract
 return true
 
 """
-
-def check_permutation(string1, string2):
+"""
+Runtime: O(n * 2)
+"""
+def check_permutation(string1, string2): 
     # create a ductionary
     letter_count = dict()
 
@@ -44,3 +49,4 @@ def check_permutation(string1, string2):
     return True
 
 print(check_permutation('tatco', 'octta'))
+```
